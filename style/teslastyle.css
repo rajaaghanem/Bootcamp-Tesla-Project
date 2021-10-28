@@ -12,7 +12,52 @@
   background-image: url("../images/first.jpg");
   width: 100vw;
   height: 109.5vh;
+  padding: 0 0 0 0;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+}
+.tds-icon-logo-wordmark {
+  inline-size: calc(var(--tds-icon--size) * 4);
+}
+.tds-icon {
+  --tds-icon--cancel-margin: calc(var(--tds-icon--size) / -5);
+  --tds-icon--fill: var(--tds-color--secondary, #fff);
+  --tds-icon--stroke: var(--tds-color--secondary, #fff);
+  background: var(--tds-icon--bg);
+  block-size: var(--tds-icon--size);
+  content: "";
+  display: block;
+  inline-size: var(--tds-icon--size);
+  width: 224px;
+  height: 39px;
+  padding-left: 32px;
+  padding-right: 32px;
+  min-block-size: var(--tds-icon--size);
+  min-inline-size: var(--tds-icon--size);
+  overflow: hidden;
+  text-indent: -9999 px;
+}
+nav {
+  position: relative;
+  z-index: 10;
+  justify-content: space-between;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-top: 0px;
+}
+
+h1 {
+  display: inline-block;
+  margin-right: 10px;
+  margin-left: 17px;
+  padding: 10px 5px 10px 11px;
+  width: 320px;
+}
+h1 a {
+  display: inline-block;
+  margin: 0px;
+  margin-top: 7px;
+  margin-left: 4px;
+  /* padding: 5px 5px 0px 2px; */
 }
