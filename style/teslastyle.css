@@ -48,14 +48,14 @@ nav {
   padding-top: 0px;
 }
 
-h1 {
+#nav__log {
   display: inline-block;
   margin-right: 10px;
   margin-left: 17px;
   padding: 10px 5px 10px 11px;
   width: 320px;
 }
-h1 a {
+#nav__log a {
   display: inline-block;
   margin: 0px;
   margin-top: 7px;
@@ -110,6 +110,16 @@ h1 a {
 
 #middlebox a:hover {
   background-color: gray;
+}
+
+.m3center {
+  color: #fff;
+  font-family: GothamSSm;
+  font-size: 50px;
+  font-weight: bold;
+  margin-top: 35px;
+  text-align: center;
+  padding: 30px;
 }
 
 @font-face {
