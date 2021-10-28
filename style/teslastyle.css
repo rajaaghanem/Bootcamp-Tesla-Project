@@ -2,6 +2,7 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  font-family: "Gotham Bold";
 }
 .contanier {
   margin: auto;
@@ -40,8 +41,8 @@
 }
 nav {
   position: relative;
-  z-index: 10;
-  justify-content: space-between;
+  /* z-index: 10; */
+  /* justify-content: space-between; */
   margin-top: 0;
   margin-bottom: 0;
   padding-top: 0px;
@@ -60,4 +61,58 @@ h1 a {
   margin-top: 7px;
   margin-left: 4px;
   /* padding: 5px 5px 0px 2px; */
+}
+#middlebox {
+  float: right;
+  padding-top: 19.5px;
+  padding-bottom: 19.5px;
+  margin-right: 480px;
+  font-family: "Gotham SSm";
+  margin-top: 7px;
+  font-weight: bold;
+}
+#middlebox a {
+  color: #fff;
+  text-decoration: none;
+  padding: 19.5px;
+  padding-top: 7px;
+  padding-bottom: 6px;
+  margin-top: 7px;
+  font-family: GothamSSm;
+  font-size: 18px;
+  border: none;
+  border-radius: 15px;
+}
+#rightbox {
+  display: inline-block;
+  margin-left: 1000px;
+  position: absolute;
+  padding: 30px;
+  padding-bottom: 19.5px;
+  padding-top: 19.5px;
+  margin-top: 7px;
+}
+#rightbox a {
+  color: #fff;
+  text-decoration: none;
+  padding: 18px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  font-family: GothamSSm;
+  font-size: 18px;
+  font-weight: bold;
+  border: none;
+  border-radius: 15px;
+}
+#rightbox a:hover {
+  background-color: gray;
+}
+
+#middlebox a:hover {
+  background-color: gray;
+}
+
+@font-face {
+  font-family: GothamSSm;
+  src: url(/fonts/GothamSSm-Book_Web.woff2);
 }
