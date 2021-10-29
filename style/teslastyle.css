@@ -2,7 +2,8 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  font-family: "Gotham Bold";
+  scroll-behavior: smooth;
+  /* box-sizing: border-box; */
 }
 .contanier {
   margin: auto;
@@ -44,6 +45,11 @@ nav {
   margin-top: 0;
   margin-bottom: 0;
   padding-top: 0px;
+}
+
+.navbar {
+  position: sticky;
+  top: 0;
 }
 
 #nav__log {
@@ -100,6 +106,7 @@ nav {
   font-weight: bold;
   border: none;
   border-radius: 15px;
+  cursor: pointer;
 }
 #rightbox a:hover {
   background-color: gray;
@@ -114,14 +121,14 @@ nav {
   font-family: GothamSSm;
   font-size: 50px;
   font-weight: bold;
-  margin-top: 35px;
+  margin-top: 30px;
   text-align: center;
   padding: 30px;
 }
 .centerlist {
   float: right;
   margin-right: 360px;
-  margin-top: 360px;
+  margin-top: 330px;
   text-align: center;
   padding: 16px;
   padding-left: 40px;
@@ -174,7 +181,35 @@ nav {
   color: black;
   background-color: #fff;
 }
-
+.inlineBlc il {
+  /* display: inline-block; */
+  padding-left: 50px;
+  padding: 20px;
+}
+#secound-page {
+  width: 100vw;
+  height: 109.5vh;
+}
+#secound-page .secound-img-info {
+  float: right;
+  width: 68%;
+  background-image: url("../images/secound_img_crop.jpg");
+  background-repeat: no-repeat;
+  height: 100%;
+  background-size: cover;
+}
+#secound-page .secound-info-content {
+  float: left;
+  width: 20%;
+  padding-left: 30px;
+  font-family: GothamSSm;
+}
+.secound-info-content h1 h3 a {
+  font-family: GothamSSm;
+}
+.clr {
+  clear: both;
+}
 @font-face {
   font-family: GothamSSm;
   src: url(/fonts/GothamSSm-Book_Web.woff2);
