@@ -85,7 +85,7 @@ nav {
 }
 #rightbox {
   display: inline-block;
-  margin-left: 1000px;
+  margin-left: 990px;
   position: absolute;
   padding: 30px;
   padding-bottom: 19.5px;
@@ -95,7 +95,7 @@ nav {
 #rightbox a {
   color: #fff;
   text-decoration: none;
-  padding: 18px;
+  padding: 19px;
   padding-top: 8px;
   padding-bottom: 8px;
   font-family: GothamSSm;
@@ -120,6 +120,65 @@ nav {
   margin-top: 35px;
   text-align: center;
   padding: 30px;
+}
+.centerlist {
+  float: right;
+  margin-right: 360px;
+  /* margin-left: 340px; */
+  margin-top: 360px;
+  text-align: center;
+  padding: 16px;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+.centerlist a {
+  display: inline-block;
+  color: #fff;
+  text-decoration: none;
+  font-family: GothamSSm;
+  font-size: 18px;
+  font-weight: bold;
+  /* padding: 20px 20px 50px 50px; */
+  text-align: center;
+}
+.footerbar {
+  margin-top: 5px;
+}
+.first {
+  display: inline-block;
+  text-align: center;
+  font-family: GothamSSm;
+}
+
+.bigfont {
+  font-size: 35px;
+  font-family: GothamSSm;
+  color: #fff;
+  font-weight: bold;
+}
+.smallfont {
+  font-size: 15px;
+  font-family: GothamSSm;
+  color: #fff;
+  /* font-weight: bold; */
+}
+.fourth {
+  border: 4px solid #fff;
+  border-radius: 60px;
+  font-size: 15px;
+  font-family: GothamSSm;
+  padding: 14px;
+  padding-left: 45px;
+  padding-right: 45px;
+  text-align: center;
+}
+.inlineBlc {
+  display: inline;
+  float: right;
+  padding: 40px;
+}
+.ordernow {
+  margin-top: 19px;
 }
 
 @font-face {
