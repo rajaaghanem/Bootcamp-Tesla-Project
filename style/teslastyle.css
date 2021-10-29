@@ -192,7 +192,7 @@ nav {
 }
 #secound-page .secound-img-info {
   float: right;
-  width: 68%;
+  width: 67%;
   background-image: url("../images/secound_img_crop.jpg");
   background-repeat: no-repeat;
   height: 100%;
@@ -200,12 +200,17 @@ nav {
 }
 #secound-page .secound-info-content {
   float: left;
-  width: 20%;
-  padding-left: 30px;
+  width: 33%;
+  padding: 50px 50px 30px 50px;
   font-family: GothamSSm;
+  height: 100%;
 }
-.secound-info-content h1 h3 a {
-  font-family: GothamSSm;
+.secound-info-content {
+  margin: 0;
+}
+#secound-page .secound-info-content h3 {
+  font-size: 25px;
+  font-weight: 70;
 }
 .clr {
   clear: both;
