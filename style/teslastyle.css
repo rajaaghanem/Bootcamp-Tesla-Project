@@ -41,8 +41,6 @@
 }
 nav {
   position: relative;
-  /* z-index: 10; */
-  /* justify-content: space-between; */
   margin-top: 0;
   margin-bottom: 0;
   padding-top: 0px;
@@ -60,7 +58,6 @@ nav {
   margin: 0px;
   margin-top: 7px;
   margin-left: 4px;
-  /* padding: 5px 5px 0px 2px; */
 }
 #middlebox {
   float: right;
@@ -124,7 +121,6 @@ nav {
 .centerlist {
   float: right;
   margin-right: 360px;
-  /* margin-left: 340px; */
   margin-top: 360px;
   text-align: center;
   padding: 16px;
@@ -138,7 +134,6 @@ nav {
   font-family: GothamSSm;
   font-size: 18px;
   font-weight: bold;
-  /* padding: 20px 20px 50px 50px; */
   text-align: center;
 }
 .footerbar {
@@ -155,15 +150,6 @@ nav {
   font-size: 15px;
   font-family: GothamSSm;
   color: #fff;
-  /* font-weight: bold; */
-}
-.fourth {
-  border: 4px solid #fff;
-  border-radius: 60px;
-  font-size: 10px;
-  font-family: GothamSSm;
-  text-align: center;
-  margin-top: 6px;
 }
 
 .inlineBlc {
@@ -174,6 +160,11 @@ nav {
 .inlineBlc a {
   display: inline-block;
   /* float: right; */
+  border: 4px solid #fff;
+  border-radius: 70px;
+  font-family: GothamSSm;
+  text-align: center;
+  margin-top: 6px;
   padding: 15px;
   font-size: 15px;
   padding-left: 48px;
@@ -182,9 +173,6 @@ nav {
 .inlineBlc a:hover {
   color: black;
   background-color: #fff;
-}
-.ordernow {
-  margin-top: 19px;
 }
 
 @font-face {
