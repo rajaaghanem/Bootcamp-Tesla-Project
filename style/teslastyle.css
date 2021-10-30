@@ -387,6 +387,10 @@ nav {
   float: left;
   text-align: center;
   width: 50%;
+  color: #fff;
+  padding-left: 12px;
+  padding-right: 12px;
+  margin: 0px;
 }
 
 #third-page .mph {
@@ -394,45 +398,68 @@ nav {
   float: right;
   text-align: center;
   width: 50%;
+  color: #fff;
+  padding-left: 12px;
+  padding-right: 12px;
+  margin: 0px;
 }
 
 #third-page .mph-and-awd {
   display: block;
   float: right;
-  width: 66%;
+  width: 50%;
   height: 30%;
+  margin-right: 240px;
 }
 
 #third-page .third-speedmeter {
   display: block;
   float: left;
-  width: 34%;
+  width: 35%;
   height: 30%;
   text-align: center;
+  padding-left: 87px;
+  margin-right: 0px;
 }
 
 #third-page .third-middle {
-  width: 100%;
+  width: 70%;
   height: 30%;
   padding-right: 159px;
   padding-right: 140px;
   padding-top: 370px;
+  font-family: GothamSSm;
+  color: #fff;
+  margin: 0px;
 }
 
 #third-page .third-time {
   display: block;
   float: right;
-  text-align: center;
   width: 50%;
+  padding-left: 0px;
+  padding-right: 180px;
+  padding-bottom: 6px;
+  color: #fff;
 }
 
 #third-page .third-svg {
   display: block;
   float: left;
-  text-align: center;
+  /* text-align: center; */
   width: 50%;
+  padding-left: 190px;
+  padding-right: 0px;
+  margin: 0px;
 }
 
+#third-page .third-time-p {
+  color: #fff;
+}
+.third-mph h1 {
+  padding-left: 20px;
+  padding-right: 20px;
+}
 .clr {
   clear: both;
 }
