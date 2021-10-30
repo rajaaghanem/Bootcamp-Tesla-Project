@@ -332,6 +332,37 @@ nav {
   background-color: black;
 }
 
+#third-page {
+  width: 100vw;
+  height: 109.5vh;
+}
+#third-page .third-top {
+  width: 100%;
+  background-image: url("../images/third-img-new-new.jpg");
+  background-repeat: no-repeat;
+  height: 60%;
+  background-size: cover;
+}
+
+#third-page .third-bottom {
+  width: 100%;
+  height: 40%;
+}
+
+.third-bottom-rigth {
+  display: block;
+  float: right;
+  width: 70%;
+  border: 4px solid black;
+  height: 100%;
+}
+.third-bottom-left {
+  display: block;
+  float: left;
+  width: 28%;
+  height: 100%;
+}
+
 .clr {
   clear: both;
 }
