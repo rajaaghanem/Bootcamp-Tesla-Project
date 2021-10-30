@@ -354,8 +354,11 @@ nav {
   display: block;
   float: right;
   width: 62%;
-  border: 4px solid black;
   height: 100%;
+  padding-top: 50px;
+  padding-right: 200px;
+  font-size: 18px;
+  line-height: 1.5em;
 }
 .third-bottom-left {
   display: block;
@@ -364,7 +367,7 @@ nav {
   height: 100%;
   padding-left: 160px;
   padding-right: 0px;
-  padding-top: 45px;
+  padding-top: 50px;
 }
 
 .third-bottom-left .order-now {
