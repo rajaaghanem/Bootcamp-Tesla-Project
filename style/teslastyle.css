@@ -273,17 +273,38 @@ nav {
   float: right;
   /* padding-right: 50; */
 }
+.order-now a {
+  display: inline-block;
+  color: black;
+  text-decoration: none;
+  border: 4px solid black;
+  border-radius: 70px;
+  padding-top: 10px;
+  padding-right: 28px;
+  padding-left: 28px;
+  padding-bottom: 10px;
+  text-align: center;
+  margin-bottom: 1px;
+  font-weight: 599;
+}
+.order-now a:hover {
+  color: white;
+  background-color: black;
+}
 .learn-more {
   display: block;
   float: left;
   /* padding-right: 160px; */
   margin: 0;
+  padding-left: 6px;
+  padding-top: 16px;
+  font-size: 17px;
 }
 .order-and-learn {
   display: block;
   float: right;
   width: 87%;
-  padding-top: 16px;
+  /* padding-top: 16px; */
 }
 .the-plus {
   display: block;
@@ -306,6 +327,11 @@ nav {
   height: 50px;
   /* padding: 40px; */
 }
+.the-plus a:hover {
+  color: white;
+  background-color: black;
+}
+
 .clr {
   clear: both;
 }
