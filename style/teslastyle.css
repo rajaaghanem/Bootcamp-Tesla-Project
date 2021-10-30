@@ -408,6 +408,7 @@ nav {
   float: left;
   width: 34%;
   height: 30%;
+  text-align: center;
 }
 
 #third-page .third-middle {
@@ -416,6 +417,20 @@ nav {
   padding-right: 159px;
   padding-right: 140px;
   padding-top: 370px;
+}
+
+#third-page .third-time {
+  display: block;
+  float: right;
+  text-align: center;
+  width: 50%;
+}
+
+#third-page .third-svg {
+  display: block;
+  float: left;
+  text-align: center;
+  width: 50%;
 }
 
 .clr {
