@@ -160,13 +160,11 @@ nav {
 }
 
 .inlineBlc {
-  /* display: inline-block; */
   float: right;
   padding: 43px;
 }
 .inlineBlc a {
   display: inline-block;
-  /* float: right; */
   border: 4px solid #fff;
   border-radius: 70px;
   font-family: GothamSSm;
@@ -182,7 +180,6 @@ nav {
   background-color: #fff;
 }
 .inlineBlc il {
-  /* display: inline-block; */
   padding-left: 50px;
   padding: 20px;
 }
@@ -203,7 +200,6 @@ nav {
   margin-top: 5px;
 }
 #secound-page {
-  /* width: 100vw; */
   height: 100vh;
 }
 #secound-page .secound-img-info {
@@ -256,7 +252,6 @@ nav {
 .order-now {
   display: block;
   float: right;
-  /* padding-right: 50; */
 }
 .order-now a {
   display: inline-block;
@@ -279,7 +274,6 @@ nav {
 .learn-more {
   display: block;
   float: left;
-  /* padding-right: 160px; */
   margin: 0;
   padding-left: 6px;
   padding-top: 16px;
@@ -289,13 +283,11 @@ nav {
   display: block;
   float: right;
   width: 87%;
-  /* padding-top: 16px; */
 }
 .the-plus {
   display: block;
   float: left;
   width: 10%;
-  /* height: fit-content; */
 }
 .the-plus a {
   display: inline-block;
@@ -310,7 +302,6 @@ nav {
   padding: 5.5px 7px 8px 8px;
   width: 50px;
   height: 50px;
-  /* padding: 40px; */
 }
 .the-plus a:hover {
   color: white;
@@ -432,7 +423,6 @@ nav {
 #third-page .third-svg {
   display: block;
   float: left;
-  /* text-align: center; */
   width: 50%;
   padding-left: 190px;
   padding-right: 0px;
