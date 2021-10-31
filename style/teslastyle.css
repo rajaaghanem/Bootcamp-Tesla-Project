@@ -13,7 +13,7 @@
 .page {
   background-image: url("../images/first.jpg");
   /* width: 100vw; */
-  height: 109.5vh;
+  height: 100vh;
   padding: 0 0 0 0;
   background-position: center;
   background-repeat: no-repeat;
@@ -204,7 +204,7 @@ nav {
 }
 #secound-page {
   /* width: 100vw; */
-  height: 109.5vh;
+  height: 100vh;
 }
 #secound-page .secound-img-info {
   float: left;
@@ -319,7 +319,7 @@ nav {
 
 #third-page {
   /* width: 100vw; */
-  height: 109.5vh;
+  height: 100vh;
   font-family: GothamSSm;
 }
 #third-page .third-top {
